@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 3;
+    padding: 2;
+    background-color: #f4f4f4;
+  }
+  
+  .blog-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #540b8b;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(173, 77, 186, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  h2 {
+    color: #555;
+  }
+  
+  p {
+    color: #777;
+  }
+  blog-post-image {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .blog-post-image img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333; /* Kare çerçeve rengi */
+    padding: 10px; /* Kare içi boşluk */
+  }
+  
+  .blog-post-content {
+    overflow: hidden; /* İçeriğin resmin yanına taşmasını engeller */
+  }
+  

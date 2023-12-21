@@ -1,0 +1,67 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Yumuşak bir gri tonu */
+}
+
+.blog-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  color: #663399; /* Mor tonu */
+  text-align: center;
+}
+
+.blog-post-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-post-image {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.blog-post-image img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #663399; /* Mor tonlu çerçeve rengi */
+}
+
+.blog-post-content {
+  padding-left: 20px;
+}
+
+p {
+  color: #333;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #663399;
+}
+
+.social-icons a svg {
+  margin-right: 10px;
+}
+
